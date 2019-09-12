@@ -1,0 +1,245 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %link{:rel => :stylesheet, :type => :"text/css", :href => "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"}
+    %link{:href => "https://fonts.googleapis.com/css?family=Montserrat|Raleway", :rel => "stylesheet"}/
+    %link{:rel => :stylesheet, :type => :"text/css", :href => "./stylesheets/main.css"}
+    %meta{:property => "og:title", :content => "#ALIANZAPORELCLIMA"}/
+    %meta{:property => "og:description", :content => "SOMOS UNA COALICIÓN DE JÓVENES, MOVIMIENTOS Y ORGANIZACIONES SOCIOAMBIENTALES QUE LUCHAN POR LA CRISIS CLIMÁTICA."}/
+    %meta{:property => "og:image", :content => "http://alianzaxelclima.org/images/alianza-1.jpg"}/
+    %title Alianza x el Clima
+    %script{:async => "", :src => "https://www.googletagmanager.com/gtag/js?id=UA-139948529-1"}
+    :javascript
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-139948529-1');
+  %body
+    #header
+      .ui.secondary.pointing.menu#menu_container
+        .ui.container
+          .item#menu_logo
+            %img{:src => "images/logo.png", class: 'ui small image'}
+          .right.menu
+            %a.item{:href => "#que_es"} NOSOTROS
+            %a.item{:href => "#miembros"} MIEMBROS
+            %a.item{:href => "#agenda"} AGENDA
+            %a.item{:href => "#prensa"} PRENSA
+            %a.item{:href => "#sumate"} SUMATE
+            %a.item{:href => "https://www.instagram.com/alianzaxelclima"}
+              %i.instagram.icon
+            %a.item{:href => "https://www.twitter.com/alianzaxelclima"}
+              %i.twitter.icon
+    .section_this
+      .ui.container#que_es
+        .hero_content
+          .ui.basic.segment
+            %h5.hero_up #ALIANZAXELCLIMA ES UNA COALICIÓN DE JÓVENES, MOVIMIENTOS Y ORGANIZACIONES SOCIOAMBIENTALES QUE LUCHAN POR LA CRISIS CLIMÁTICA.
+            %p ¿Cómo nació?
+            %p
+              El movimiento Fridays For Future Internacional (
+              %a.item{:href => "https://www.fridaysforfuture.org"}www.fridaysforfuture.org
+              ), fundado por Greta Thunberg, disparó una oleada de movimientos juveniles en todo el mundo y renovó la energía de muchos adolescentes, jóvenes y adultos que dan su tiempo para combatir la crisis climática.
+              %br/
+              Por lo tanto, en Argentina decidimos tomar el mandato global en forma de alianza, ya que somos muchos los que estamos "tirando para el mismo lado".
+              %br/
+              El corazón revolucionario de esta alianza radica en la unidad y construcción de un frente sólido contra un problema en común.
+
+            %p.underlined Filosofía
+
+            %p A pesar de que FFF se gestó como un "movimiento", hoy en día creció, y fue necesario organizarnos. Somos muchos los movimientos compuestos por jóvenes y creemos que ninguno tiene el poder para hablar por la juventud en su totalidad. Cada uno posee su filosofía interna, su forma de trabajar y pensar, su manual de marca, entre otros, y por eso decidimos respetar a cada espacio individualmente pero unirnos estructuralmente para demostrar que el egoísmo no es más       importante que la meta: "hacer de este mundo un lugar mejor".
+            .ui.divider
+            %p
+              %strong
+                ESTADO DE SITUACIÓN
+            %p
+              %strong
+                15.3.19 -
+              Entregamos un petitorio en el Congreso Nacional para que se declare al país en Estado de Emergencia Climática y Ecológica.
+              %br
+              %strong
+                18.7.19 -
+              Luego de muchos meses de esfuerzo, logramos que el Senado de la República Argentina declare su profunda preocupación por la Emergencia Climática y Ecológica mundial y exhorte al poder ejecutivo a tomar cartas en el asunto.
+              %br
+              *El esfuerzo incluyó: 2 movilizaciones históricas, decenas de reuniones con funcionarios y políticos, presentación de documentos, demanda activa en redes sociales, entre otros.
+              %br
+              %strong
+                3.8.19 -
+              Entregamos una carta abierta al presidente de la Sociedad Rural Argentina exponiendo la contribución de la agricultura animal a la generación y agravamiento de la crisis climática y ecológica, y las posibles soluciones,
+              e invitamos al Sr. Daniel Pelegrina (el presidente) a una mesa de diálogo en la que él también podrá comprobar que los alimentos vegetales, además de saludables y sustentables, pueden ser deliciosos. Todos los medios, organizaciones y personas en general fueron invitados.
+    .section_this
+      .ui.container#miembros
+        %h1 Miembros
+        %p Colocamos los logos en orden alfabético porque somos un equipo y nadie es mas importante.
+        .ui.divider
+        .ui.grid
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/aclimatando/"}
+              %img{:src => "images/logo-conbajada-sinfondo2.png", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/agendaambiental.buenosaires"}
+              %img{:src => "images/agenda.jpg", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.amartya.org"}
+              %img{:src => "images/logo_amartya.jpg", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/animallibreargentina/"}
+              %img{:src => "images/logo-redes-sociales-20152.png", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/climatesaveargentina/"}
+              %img{:src => "images/climate_save_argentina.png", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/eco.house/"}
+              %img{:src => "images/ecohouse.png", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/grupoecohuellas/"}
+              %img{:src => "images/eco_huellas.jpg", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/ecolobos/"}
+              %img{:src => "images/eco_lobos.jpg", class: 'ui small circular image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/econcienciav/"}
+              %img{:src => "images/econciencia.png", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/XrArgentina/?hl=es "}
+              %img{:src => "images/extinction.jpg", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/fridaysforfuture.arg/"}
+              %img{:src => "images/fff.png", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "http://faspatagonico.blogspot.com/"}
+              %img{:src => "images/fasp.jpg", class: 'ui small circular image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/healthsaveargentina"}
+              %img{:src => "images/ii_jw26odua0.png", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/influos/"}
+              %img{:src => "images/influos.jpg", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/islaverde.ong/"}
+              %img{:src => "images/isla_verde.jpg", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/iumacreciendoenvalores/"}
+              %img{:src => "images/iuma.jpg", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/juventud.ecologista/"}
+              %img{:src => "images/juventudEcologistaArg_logo_opciones_ESP-012.png", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.lavueltaalmundo.com.ar"}
+              %img{:src => "images/inti_bonomo.jpg", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/listosyaorg/"}
+              %img{:src => "images/logo-transparente.png", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/ocean0km/"}
+              %img{:src => "images/IMG-20190312-WA00882.png", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/planeta.sustentate/"}
+              %img{:src => "images/LogoPlaneta33.png", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.sumandoenergias.org"}
+              %img{:src => "images/sumando_energia.jpg", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/comisiontesma7/"}
+              %img{:src => "images/tesma.png", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://instagram.com/vecinosporlaecologia?igshid=1dpzbcxr3w024"}
+              %img{:src => "images/vecinos.jpg", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://instagram.com/veganarquistas_?igshid=tf1btogb2v3m"}
+              %img{:src => "images/vegan_anar.jpeg", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/voicot/?hl=es-la"}
+              %img{:src => "images/voicot.jpg", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "https://www.instagram.com/yoamomiplaya.ok/"}
+              %img{:src => "images/yoamomi.png", class: 'ui small image'}
+    .section_this
+      .ui.container#agenda
+        %h1 Agenda y logros
+        .ui.divider
+        .ui.grid
+          .eight.wide.column
+            %img{:src => "images/3_movilizacion.jpg", class: 'ui large image'}
+          .eight.wide.column
+            %img{:src => "images/afiche.jpg", class: 'ui large image'}
+          .eight.wide.column
+            %img{:src => "images/alianza-1.jpg", class: 'ui large image'}
+          .eight.wide.column
+            %img{:src => "images/alianza-2.jpg", class: 'ui large image'}
+          .eight.wide.column
+            %img{:src => "images/alianza_24m.png", class: 'ui large image'}
+          .eight.wide.column
+            %img{:src => "images/1bis.png", class: 'ui large image'}
+    .section_this
+      .ui.container
+        %h1 Sobre el movimiento
+        .ui.divider
+        %p
+          La iniciativa surge a partir de las grandes huelgas juveniles de impacto internacional que están teniendo lugar en más de 270 ciudades alrededor del globo. Estas manifestaciones fueron impulsadas por Greta Thunberg, una joven adolescente sueca de 16 años que decidió organizarse para reclamarle al Parlamento que tomé cartas en los asuntos ambientales. A raíz del hecho, el 15 de marzo fue establecido como fecha de protesta universal. En la Argentina, la juventud decidió adherir al reclamo construyendo un espacio que agrupe a todos los sectores indignados por la indiferencia del Estado y el comportamiento incorrecto de la estructura corporativa contaminante. En esta primera jornada se conquistó una convocatoria aproximada de 5000 manifestantes, la cual fue histórica para las movilizaciones ambientales. De esta manera, aquí estamos, unidos y fuertes, construyendo consenso para que él único desarrollo a realizar sea el sostenible.
+        %h4 DATA EXPRÉS
+        %p
+          El Panel Intergubernamental sobre Cambio Climático (IPCC) destacó, en su último informe (10.2018), la importancia de mantener el aumento de la temperatura global por debajo de 1,5 grados Celsius —para lograrlo, es necesario reducir las emisiones de gases de efecto invernadero en un 45% (a nivel global) para el 2030.
+          Como resultado del informe, la juventud global decidió reclamar por medidas urgentes para mitigar la problemática. La activista Greta Thunberg, expresó: “no podemos resolver una crisis sin tratarla como tal. Si las soluciones dentro del sistema son tan imposibles de encontrar, entonces, debemos transformar el sistema”.
+    .section_this
+      .ui.container#prensa
+        %h1 Prensa
+        .ui.divider
+        %p
+          El movimiento #AlianzaXelClima es una red de movimientos y organizaciones, por lo que cualquier integrante está capacitado para hablar de las acciones que realizamos en conjunto. Podés hacer clic en el logo de cualquiera de las organizaciones miembro, o contactarte con la Comisión de Comunicación:
+        %p
+          ⦿ Stephanie Cabovianco - WhatsApp: +54 9 116 724 1633
+        %p
+          ⦿ Máximo Mazzocco - WhatsApp: +54 9 116 547 4646
+        %p
+          ⦿ Nicolás Fassi - WhatsApp: +54 9 113 192 7603
+        %p
+          ⦿ Contacto General - Email: info@alianzaxelclima.org
+    .section_this
+      .ui.container#sumate
+        %h1 Sumate
+        .ui.divider
+        %p
+          1. Si sos un/a particular y te querés unir a la causa, sumate a la organización que más guste.
+          %br/
+          2. Si sos una organización, comunicate con cualquiera de las personas que figuran en "Prensa".
+    .section_this
+      .ui.container
+        %h5 JOCA Argentina
+        .ui.divider
+        %p Jóvenes Por El Clima Argentina es un movimiento que representa a una parte de los jóvenes de Argentina en esta lucha. Somos amigos, nos llevamos muy bien y realizamos acciones en conjunto (#15M, #24M y el proyecto de Declaración de Emergencia Climática).
+    .section_this
+      .ui.container#miembros
+        %h1 Empresas sociales que nos ayudan y acompañan
+        %p *Nos ayudan a conseguir recursos materiales para las activaciones que realizamos.
+        .ui.divider
+        .ui.grid
+          .two.wide.column
+            %a{:href => "#"}
+              %img{:src => "images/bioferia.png", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "#"}
+              %img{:src => "images/che_vegano.png", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "#"}
+              %img{:src => "images/estilo_veggie.jpeg", class: 'ui circular small image'}
+          .two.wide.column
+            %a{:href => "#"}
+              %img{:src => "images/nave_tierra.png", class: 'ui small image'}
+          .two.wide.column
+            %a{:href => "#"}
+              %img{:src => "images/swahili.png", class: 'ui small image'}
+
+    #footer
+      .ui.container
+        .ui.equal.width.grid
+          .row
+            .column
+              %h5.ui.header
+            .column
+              %h5.ui.centered.header
+                ALIANZA X EL CLIMA
+            .column
+              %h5.ui.right.floated.header
+                %a{:href => "http://julianclatro.com"}Diseño web: Julián Clatro

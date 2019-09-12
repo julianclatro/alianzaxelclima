@@ -1,0 +1,72 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+}
+.underlined {
+  -webkit-text-decoration: h underline;
+          text-decoration: h underline;
+}
+#siteboard {
+  height: auto;
+  width: 100%; }
+
+.layer {
+  height: inherit;
+  width: inherit;
+  position: inherit; }
+
+#header {
+  height: 12vh;
+  width: 100%; }
+
+.section_this {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  height: auto;
+  width: 100%;
+}
+.hero_up {
+  text-transform: uppercase;
+}
+.underlined_text {
+  text-decoration: underline;
+}
+
+#footer {
+  height: auto;
+  width: 100%;
+  background-color: #000;
+  padding-top: 1.2em;
+  padding-bottom: 1.6em; }
+
+#footer h5, #footer h5 a,
+#footer .column, #footer h6 a {
+  color: #d4d4d5;
+  font-weight: normal; }
+
+#menu_logo {
+  padding-bottom: 0.5em; }
+
+#menu_container {
+  border-bottom: 1px solid rgba(34, 36, 38, 0.65);
+  height: 8vh;
+  padding-bottom: 1vh; }
+
+.hero_header {
+  font-weight: normal;
+  text-align: justify;
+  line-height: 1.5em; }
+
+.hero_button {
+  margin-top: 35px; }
+
+.contact_form {
+  width: 560px; }
+
+.link_carta {
+  text-decoration: underline; }
+
+.inverted.header a {
+  color: white; }
