@@ -1,0 +1,19 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %link{:rel => :stylesheet, :type => :"text/css", :href => "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"}
+    %link{:href => "https://fonts.googleapis.com/css?family=Montserrat|Raleway", :rel => "stylesheet"}/
+    %link{:rel => :stylesheet, :type => :"text/css", :href => "./stylesheets/main.css"}
+    %meta{:property => "og:title", :content => "#ALIANZAPORELCLIMA"}/
+    %meta{:property => "og:description", :content => "SOMOS UNA COALICIÓN DE JÓVENES, MOVIMIENTOS Y ORGANIZACIONES SOCIOAMBIENTALES QUE LUCHAN POR LA CRISIS CLIMÁTICA."}/
+    %meta{:property => "og:image", :content => "http://alianzaxelclima.org/images/alianza-1.jpg"}/
+    %title Alianza x el Clima
+    %script{:async => "", :src => "https://www.googletagmanager.com/gtag/js?id=UA-139948529-1"}
+    :javascript
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-139948529-1');
+  %body
+    = yield
